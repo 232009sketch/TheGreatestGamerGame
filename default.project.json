@@ -2,29 +2,31 @@
   "name": "TheGreatestGamerGame",
   "tree": {
     "$className": "DataModel",
-
     "ReplicatedStorage": {
       "Shared": {
-        "$path": "src/shared"
+        "$path": "src/Shared"
       },
       "Packages": {
         "$path": "Packages"
       }
     },
-
     "ServerScriptService": {
       "Server": {
-        "$path": "src/server"
+        "$path": "src/Server"
       },
       "ServerPackages": {
         "$path": "ServerPackages"
       }
     },
-
     "StarterPlayer": {
       "StarterPlayerScripts": {
-        "Client": {
-          "$path": "src/client"
+        "PlayerClient": {
+          "$path": "src/Client/PlayerClient"
+        }
+      },
+      "StarterCharacterScripts": {
+        "CharacterClient": {
+          "$path": "src/Client/CharacterClient"
         }
       }
     }
